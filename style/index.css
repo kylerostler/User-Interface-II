@@ -37,6 +37,56 @@ footer, header, hgroup, menu, nav, section {
     border:1px solid grey;
 }
 
-body{
+/*general styles*/
+html{
     font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    color:#4f4f4f;
+    background-color:beige;
+    font-family: 'Metal Mania', cursive;
+}
+h1{
+    font-size:7rem;
+    color: darkred;
+    font-family: 'Metal Mania', cursive;
+    margin:1.5rem;
+}
+h2{
+    font-size:3rem;
+}
+h3{
+    font-size:2.5rem;
+}
+h2, h3{
+    color:darkgreen;
+}
+a{
+    text-decoration: none;
+    color: darkred;
+}
+section, footer{
+    padding:4% 0;
+}
+
+/*helper classes*/
+.bg-img{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*styling for header*/
+header{
+    background-color:tan;
+}
+nav{
+    font-size:3.5rem;
+    margin:2rem;
+}
+nav a{
+    background-color: #4f4f4f;
+    border-radius: 10px;
 }
