@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*general styles*/
@@ -114,8 +114,13 @@ nav a{
 }
 
 /*projects preview section styling*/
-#projects{
+.text{
       display:flex;
+      justify-content:space-around;
+}
+.set1{
+    display:flex;
+    justify-content:space-around;
 }
 .pro1{
     background-image: url('../pictures/books.jpg');
