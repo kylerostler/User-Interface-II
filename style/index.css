@@ -110,14 +110,65 @@ nav a{
 .info a{
     background-color:#4f4f4f;
     color: darkred;
+    border-radius: 10px;
 }
 
 /*projects preview section styling*/
 #projects{
-     display:flex;
+      display:flex;
+}
+.pro1{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro2{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro3{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro4{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro5{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro6{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro7{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
+}
+.pro8{
+    background-image: url('../pictures/books.jpg');
+    width:24%;
+    height:30vh;
 }
 
 /*footer section styling*/
-#contact{
-    display:flex;
+h2{
+    text-align: center;
+}
+.middle{
+    text-align:center;
+}
+.contactinfo{
+    font-size:2.5rem;
+}
+.contactinfo a{
+    background-color: #4f4f4f;
+    border-radius: 10px;
 }
