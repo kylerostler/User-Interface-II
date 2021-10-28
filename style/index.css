@@ -94,9 +94,30 @@ nav a{
 /*about section styles*/
 .books{
     background-image: url('../pictures/books.jpg');
-    width:50%
+    width:45%;
+    height:40vh;
 }
 #about{
     height:40vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+}
+#about p{
+    margin:1rem;
+}
+.info a{
+    background-color:#4f4f4f;
+    color: darkred;
+}
+
+/*projects preview section styling*/
+#projects{
+     display:flex;
+}
+
+/*footer section styling*/
+#contact{
     display:flex;
 }
