@@ -177,3 +177,13 @@ h2{
     background-color: #4f4f4f;
     border-radius: 10px;
 }
+
+/*media queries*/
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+
+}
