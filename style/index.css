@@ -234,6 +234,9 @@ div.info a{
     font-size:2.5rem;
 }
 /*bottom section styles*/
+#projectpreview{
+    display:flex;
+}
 .set1{
     flex-wrap:wrap;
 }
@@ -244,6 +247,9 @@ div.pro1{
 div.pro2{
     width:45%;
     order:2;
+}
+.first h3{
+    order:3;
 }
 div.pro3{
     width:45%;
