@@ -195,13 +195,26 @@ h2{
 }/*closes tablet view 800px*/
 
 @media (max-width: 500px){
+    nav a{
+        border-radius:0;
+    }
+    nav{
+        font-size:3rem;
+    }
 /*header section styles*/
 header{
     text-align:center;
 }
-nav a{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+div.left{
+     display:flex;
+     margin:0;
+     justify-content:center;
 }
+.left nav a{
+    display:flex; 
+    justify-content:center;
+    padding:1%;
+    margin:2%;
+}
+
 }/*closes mobile view 500px*/
