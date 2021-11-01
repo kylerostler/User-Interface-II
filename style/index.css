@@ -44,13 +44,12 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    color:#4f4f4f;
-    background-color:beige;
+    background-color:lightgrey;
     font-family: 'Metal Mania', cursive;
 }
 h1{
     font-size:7rem;
-    color: darkred;
+    color: crimson;
     font-family: 'Metal Mania', cursive;
     margin:1.5rem;
 }
@@ -61,11 +60,11 @@ h3{
     font-size:2.5rem;
 }
 h2, h3{
-    color:darkred;
+    color:crimson;
 }
 a{
     text-decoration: none;
-    color: darkred;
+    color: crimson;
 }
 section, footer{
     padding:4% 0;
@@ -80,14 +79,14 @@ section, footer{
 
 /*styling for header*/
 header{
-    background-color:tan;
+    background-color:skyblue;
 }
 nav{
     font-size:3.5rem;
     margin:2rem;
 }
 nav a{
-    background-color: #4f4f4f;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -108,8 +107,8 @@ nav a{
     margin:1rem;
 }
 .info a{
-    background-color:#4f4f4f;
-    color: darkred;
+    background-color:black;
+    color: crimson;
     border-radius: 10px;
 }
 
@@ -174,7 +173,7 @@ h2{
     font-size:2.5rem;
 }
 .contactinfo a{
-    background-color: #4f4f4f;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -205,6 +204,9 @@ h2{
 header{
     text-align:center;
 }
+h1{
+    margin:0;
+}
 div.left{
      display:flex;
      margin:0;
@@ -213,8 +215,58 @@ div.left{
 .left nav a{
     display:flex; 
     justify-content:center;
-    padding:1%;
     margin:2%;
 }
-
+/*middle section styles*/
+#about{
+    flex-direction:column;
+    margin:5%;
+    height:auto;
+}
+div.chair{
+    width:80%;
+    margin:0;
+}
+h2{
+    font-size:3.5rem;
+}
+div.info a{
+    font-size:2.5rem;
+}
+/*bottom section styles*/
+.set1{
+    flex-wrap:wrap;
+}
+div.pro1{
+    width:45%;
+    order:1;
+}
+div.pro2{
+    width:45%;
+    order:2;
+}
+div.pro3{
+    width:45%;
+    order:4;
+}
+div.pro4{
+    width:45%;
+    order:5;
+}
+div.pro5{
+    width:45%;
+    order:7;
+}
+div.pro6{
+    width:45%;
+    order:8;
+}
+div.pro7{
+    width:45%;
+    order:10;
+}
+div.pro8{
+    width:45%;
+    order:11;
+}
 }/*closes mobile view 500px*/
