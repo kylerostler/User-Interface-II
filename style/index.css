@@ -44,13 +44,12 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    color:#4f4f4f;
-    background-color:beige;
+    background-color:lightgrey;
     font-family: 'Metal Mania', cursive;
 }
 h1{
     font-size:7rem;
-    color: darkred;
+    color: crimson;
     font-family: 'Metal Mania', cursive;
     margin:1.5rem;
 }
@@ -59,13 +58,15 @@ h2{
 }
 h3{
     font-size:2.5rem;
+    width:22%;
+    text-align:center;
 }
 h2, h3{
-    color:darkred;
+    color:crimson;
 }
 a{
     text-decoration: none;
-    color: darkred;
+    color: crimson;
 }
 section, footer{
     padding:4% 0;
@@ -80,19 +81,19 @@ section, footer{
 
 /*styling for header*/
 header{
-    background-color:tan;
+    background-color:skyblue;
 }
 nav{
     font-size:3.5rem;
     margin:2rem;
 }
 nav a{
-    background-color: #4f4f4f;
+    background-color: black;
     border-radius: 10px;
 }
 
 /*about section styles*/
-.books{
+.chair{
     background-image: url('https://images.unsplash.com/photo-1618351708125-f8d1035c1b15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaWF0dXJlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     width:45%;
     height:40vh;
@@ -108,19 +109,24 @@ nav a{
     margin:1rem;
 }
 .info a{
-    background-color:#4f4f4f;
-    color: darkred;
+    background-color:black;
+    color: crimson;
     border-radius: 10px;
 }
 
 /*projects preview section styling*/
-.text{
+/* .text{
       display:flex;
       justify-content:space-around;
 }
 .set1{
     display:flex;
     justify-content:space-around;
+} */
+div.projectpreview{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 .pro1{
     background-image: url('https://images.unsplash.com/photo-1529416272270-05ffe151a74c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaWF0dXJlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
@@ -174,6 +180,127 @@ h2{
     font-size:2.5rem;
 }
 .contactinfo a{
-    background-color: #4f4f4f;
+    background-color: black;
     border-radius: 10px;
 }
+
+/*media queries*/
+
+@media (max-width: 800px){
+/*header styles*/
+
+/*top section styles*/
+.chair{
+    margin-left:2.5%;
+}
+/*middle section styles*/
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6, .pro7, .pro8{
+    width:20%;
+    height:28vh;
+}
+}/*closes tablet view 800px*/
+
+@media (max-width: 500px){
+    nav a{
+        border-radius:0;
+    }
+    nav{
+        font-size:3rem;
+    }
+/*header section styles*/
+header{
+    text-align:center;
+}
+h1{
+    margin:0;
+}
+div.left{
+     display:flex;
+     margin:0;
+     justify-content:center;
+}
+.left nav a{
+    display:flex; 
+    justify-content:center;
+    margin:2%;
+}
+/*middle section styles*/
+#about{
+    flex-direction:column;
+    margin:5%;
+    height:auto;
+}
+div.chair{
+    width:80%;
+    margin:0;
+}
+h2{
+    font-size:3.5rem;
+}
+div.info a{
+    font-size:2.5rem;
+}
+/*bottom section styles*/
+#projectpreview{
+    display:flex;
+}
+h3{
+    margin: 2% 5% 2% 5%;
+}
+div.pro1{
+    width:45%;
+    order:1;
+}
+div.pro2{
+    width:45%;
+    order:2;
+}
+h3.one{
+    order:3;
+}
+h3.two{
+    order:4;
+}
+div.pro3{
+    width:45%;
+    order:5;
+}
+div.pro4{
+    width:45%;
+    order:6;
+}
+h3.three{
+    order:7;
+}
+h3.four{
+    order:8;
+}
+div.pro5{
+    width:45%;
+    order:9;
+}
+div.pro6{
+    width:45%;
+    order:10;
+}
+h3.five{
+    order:11;
+}
+h3.six{
+    order:12;
+}
+div.pro7{
+    width:45%;
+    order:13;
+}
+div.pro8{
+    width:45%;
+    order:14;
+}
+h3.seven{
+    order:15;
+}
+h3.eight{
+    order:16;
+}
+}/*closes mobile view 500px*/
