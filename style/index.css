@@ -58,6 +58,8 @@ h2{
 }
 h3{
     font-size:2.5rem;
+    width:22%;
+    text-align:center;
 }
 h2, h3{
     color:crimson;
@@ -113,13 +115,18 @@ nav a{
 }
 
 /*projects preview section styling*/
-.text{
+/* .text{
       display:flex;
       justify-content:space-around;
 }
 .set1{
     display:flex;
     justify-content:space-around;
+} */
+div.projectpreview{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
 }
 .pro1{
     background-image: url('https://images.unsplash.com/photo-1529416272270-05ffe151a74c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWluaWF0dXJlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
@@ -237,8 +244,8 @@ div.info a{
 #projectpreview{
     display:flex;
 }
-.set1{
-    flex-wrap:wrap;
+h3{
+    margin: 2% 5% 2% 5%;
 }
 div.pro1{
     width:45%;
@@ -248,31 +255,52 @@ div.pro2{
     width:45%;
     order:2;
 }
-.first h3{
+h3.one{
     order:3;
+}
+h3.two{
+    order:4;
 }
 div.pro3{
     width:45%;
-    order:4;
+    order:5;
 }
 div.pro4{
     width:45%;
-    order:5;
+    order:6;
+}
+h3.three{
+    order:7;
+}
+h3.four{
+    order:8;
 }
 div.pro5{
     width:45%;
-    order:7;
+    order:9;
 }
 div.pro6{
     width:45%;
-    order:8;
+    order:10;
+}
+h3.five{
+    order:11;
+}
+h3.six{
+    order:12;
 }
 div.pro7{
     width:45%;
-    order:10;
+    order:13;
 }
 div.pro8{
     width:45%;
-    order:11;
+    order:14;
+}
+h3.seven{
+    order:15;
+}
+h3.eight{
+    order:16;
 }
 }/*closes mobile view 500px*/
