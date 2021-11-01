@@ -92,7 +92,7 @@ nav a{
 }
 
 /*about section styles*/
-.books{
+.chair{
     background-image: url('https://images.unsplash.com/photo-1618351708125-f8d1035c1b15?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaWF0dXJlc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
     width:45%;
     height:40vh;
@@ -181,9 +181,27 @@ h2{
 /*media queries*/
 
 @media (max-width: 800px){
+/*header styles*/
 
+/*top section styles*/
+.chair{
+    margin-left:2.5%;
 }
+/*middle section styles*/
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6, .pro7, .pro8{
+    width:20%;
+    height:28vh;
+}
+}/*closes tablet view 800px*/
 
 @media (max-width: 500px){
-
+/*header section styles*/
+header{
+    text-align:center;
 }
+nav a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+}/*closes mobile view 500px*/
